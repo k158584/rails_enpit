@@ -8,6 +8,7 @@ deploy:
   app: secret-brushlands-8293
   on:
     repo: k158584/rails_enpit
+    branch: master
 addons:
   postgresql: "9.3"
 before_script:
